@@ -1,0 +1,11 @@
+digraph "imu_microstrain" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_3a83a7361507c81fa7bd9e0ed09d435b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="sensors" fontname="Helvetica", fontsize="10", URL="dir_3a83a7361507c81fa7bd9e0ed09d435b.html"]
+  dir_41d020430541058d6a14a6615740d0b7 [shape=box, label="imu_microstrain", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_41d020430541058d6a14a6615740d0b7.html"];
+  }
+  dir_bc0718b08fb2015b8e59c47b2805f60c [shape=box label="libraries" fillcolor="white" style="filled" color="red" URL="dir_bc0718b08fb2015b8e59c47b2805f60c.html"];
+  dir_41d020430541058d6a14a6615740d0b7->dir_bc0718b08fb2015b8e59c47b2805f60c [headlabel="6", labeldistance=1.5 headhref="dir_000032_000000.html"];
+}

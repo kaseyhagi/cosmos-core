@@ -1,0 +1,15 @@
+digraph "Cosmos::Agent::messstruc"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Cosmos::Agent::messstruc\n||}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +bdata" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{vector\< uint8_t \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +jdata\n+adata" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{string\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +meta" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{Cosmos::Agent::pollstruc\n|+ type\l+ jlength\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_cosmos_1_1_agent_1_1pollstruc.html"];
+  Node5 -> Node4 [color="grey25",fontsize="10",style="solid",label=" +beat" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{beatstruc\n|+ utc\l+ node\l+ proc\l+ ntype\l+ addr\l+ port\l+ bsz\l+ bprd\l+ user\l+ cpu\l+ memory\l+ jitter\l+ exists\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structbeatstruc.html"];
+}

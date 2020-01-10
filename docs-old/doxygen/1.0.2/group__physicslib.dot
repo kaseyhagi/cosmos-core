@@ -1,0 +1,15 @@
+digraph "Physics Simulation Library"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node4 [label="Physics Library functions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__physicslib__functions.html"];
+  Node1 [label="Support Libraries",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__support.html"];
+  Node3 [label="Physics typedefs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__physicslib__typedefs.html"];
+  Node0 [label="Physics Simulation\l Library",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 [label="Physics constants",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__physicslib__constants.html"];
+  Node1->Node0 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node2 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node3 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node4 [shape=plaintext, dir="back", style="solid"];
+}

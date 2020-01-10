@@ -1,0 +1,11 @@
+digraph "ground-station" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_e9bfa404cf0ac1cbaf261f3a36e4afac {
+    graph [ bgcolor="#ddddee", pencolor="black", label="agents" fontname="Helvetica", fontsize="10", URL="dir_e9bfa404cf0ac1cbaf261f3a36e4afac.html"]
+  dir_6c834d0e2eaa7ec7d1f195e502851015 [shape=box, label="ground-station", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_6c834d0e2eaa7ec7d1f195e502851015.html"];
+  }
+  dir_bc0718b08fb2015b8e59c47b2805f60c [shape=box label="libraries" fillcolor="white" style="filled" color="red" URL="dir_bc0718b08fb2015b8e59c47b2805f60c.html"];
+  dir_6c834d0e2eaa7ec7d1f195e502851015->dir_bc0718b08fb2015b8e59c47b2805f60c [headlabel="31", labeldistance=1.5 headhref="dir_000016_000000.html"];
+}

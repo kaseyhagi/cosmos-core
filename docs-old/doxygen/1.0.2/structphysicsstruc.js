@@ -1,0 +1,26 @@
+var structphysicsstruc =
+[
+    [ "dt", "structphysicsstruc.html#ad34bd2ae633ea1bdbf01e2f38bf35a36", null ],
+    [ "dtj", "structphysicsstruc.html#a52ff2d9795a3a78753a6bbe1e0bb5b6e", null ],
+    [ "mjdbase", "structphysicsstruc.html#a7c26927025bc587595b9f328042ff8fa", null ],
+    [ "mjdaccel", "structphysicsstruc.html#a3a701106e19f2c37b60f1209fc786b01", null ],
+    [ "mjddiff", "structphysicsstruc.html#ad1bc7c488189229a49a2a402eea170f2", null ],
+    [ "mode", "structphysicsstruc.html#ac7ce668e6c24f9cc73b884da33a758ce", null ],
+    [ "heat", "structphysicsstruc.html#adb74fc438f8df74993f2e713d09a4f98", null ],
+    [ "ftorque", "structphysicsstruc.html#a82d9dc7be107960ed99b817b95982047", null ],
+    [ "atorque", "structphysicsstruc.html#a32e6937500a9b1e45e76c7e9b5b3798c", null ],
+    [ "rtorque", "structphysicsstruc.html#a72d3b659d55922f3ae2ad8a57f8b71e1", null ],
+    [ "gtorque", "structphysicsstruc.html#aadf540cf848920c571706b2304224e1e", null ],
+    [ "htorque", "structphysicsstruc.html#a8b02accc7ebd0c9771cfac3e527c8add", null ],
+    [ "hmomentum", "structphysicsstruc.html#a81c816528a45a2a13d3640be2a4e4840", null ],
+    [ "ctorque", "structphysicsstruc.html#a2cdbb4abfe816ca33676b972297b94b4", null ],
+    [ "fdrag", "structphysicsstruc.html#a45fda4576839f70a9db8032e5cdc1df4", null ],
+    [ "adrag", "structphysicsstruc.html#a538617c9585a7f79f19cb0c3d4efa56d", null ],
+    [ "rdrag", "structphysicsstruc.html#acc9ab7e6fc40ff1d62207b29aae9a39e", null ],
+    [ "thrust", "structphysicsstruc.html#adc5651a2de70e7b78b5bdfe98bffa741", null ],
+    [ "moi", "structphysicsstruc.html#a77f35331e29636c70677aa082f16eabb", null ],
+    [ "com", "structphysicsstruc.html#a01fbd2130d746d71899566c72c99a7c3", null ],
+    [ "hcap", "structphysicsstruc.html#a99e6baefefa16247440ee1f2ebd79c0b", null ],
+    [ "mass", "structphysicsstruc.html#a8376eee907f57d5770d848e74b7db5d0", null ],
+    [ "area", "structphysicsstruc.html#a81f38c2a88534ff086eb47e70b707719", null ]
+];

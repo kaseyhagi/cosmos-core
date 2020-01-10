@@ -1,0 +1,7 @@
+digraph "map_dem_dem"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{map_dem_dem\n|+ utc\l+ name\l+ lonul\l+ latul\l+ lonlr\l+ latlr\l+ psize\l+ scale\l+ xcount\l+ ycount\l+ dlon\l+ dlat\l+ pixel\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

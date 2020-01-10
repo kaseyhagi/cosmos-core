@@ -1,0 +1,11 @@
+digraph "generic-device" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d5c4cbb60f039f49ada0738f088680c4 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="namespace" fontname="Helvetica", fontsize="10", URL="dir_d5c4cbb60f039f49ada0738f088680c4.html"]
+  dir_a4db89aabbdcfa863e2e6bd5cef3d1e2 [shape=box, label="generic-device", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_a4db89aabbdcfa863e2e6bd5cef3d1e2.html"];
+  }
+  dir_bc0718b08fb2015b8e59c47b2805f60c [shape=box label="libraries" fillcolor="white" style="filled" color="red" URL="dir_bc0718b08fb2015b8e59c47b2805f60c.html"];
+  dir_a4db89aabbdcfa863e2e6bd5cef3d1e2->dir_bc0718b08fb2015b8e59c47b2805f60c [headlabel="3", labeldistance=1.5 headhref="dir_000021_000000.html"];
+}

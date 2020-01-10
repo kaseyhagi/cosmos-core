@@ -1,0 +1,13 @@
+digraph "Agent Server and Client Library"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="Support Libraries",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__support.html"];
+  Node2 [label="Agent Server and Client\l functions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__agentclass__functions.html"];
+  Node3 [label="Agent Server and Client\l Library typedefs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__agentclass__typedefs.html"];
+  Node0 [label="Agent Server and Client\l Library",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1->Node0 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node2 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node3 [shape=plaintext, dir="back", style="solid"];
+}

@@ -1,0 +1,15 @@
+digraph "JPL Ephemeris Library"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node3 [label="JPL Ephemeris constants",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__jpleph__contants.html"];
+  Node0 [label="JPL Ephemeris Library",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 [label="Support Libraries",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__support.html"];
+  Node2 [label="JPL Ephemeris function\l declarations",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__jpleph__functions.html"];
+  Node4 [label="JPL Ephemeris structs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__jpleph__structs.html"];
+  Node1->Node0 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node2 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node3 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node4 [shape=plaintext, dir="back", style="solid"];
+}

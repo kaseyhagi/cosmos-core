@@ -1,0 +1,9 @@
+digraph "eci2kep_test"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{eci2kep_test\n|- ui\l- test_maxErr\l- period_maxErr\l- a_maxErr\l- e_maxErr\l- h_maxErr\l- beta_maxErr\l- eta_maxErr\l- i_maxErr\l- raan_maxErr\land 23 more...\l|+ eci2kep_test()\l+ ~eci2kep_test()\l- on_comboBox_currentIndex\lChanged()\l- on_SelectMax_clicked()\l- on_SelectMin_clicked()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{QWidget\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

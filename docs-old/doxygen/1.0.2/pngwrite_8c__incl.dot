@@ -1,0 +1,50 @@
+digraph "pngwrite.c"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="pngwrite.c",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="pngpriv.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$pngpriv_8h.html"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="stdlib.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="string.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="pnglibconf.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$pnglibconf_8h.html"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="png.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$png_8h.html"];
+  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="pngconf.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$pngconf_8h.html"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="limits.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="stddef.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="stdio.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="setjmp.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="time.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="float.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="math.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="pngstruct.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$pngstruct_8h.html"];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="zlib.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zlib_8h.html"];
+  Node15 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="zconf.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$zconf_8h.html"];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="stdarg.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node16 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="unistd.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="pnginfo.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$pnginfo_8h.html"];
+  Node1 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="pngdebug.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$pngdebug_8h.html"];
+  Node0 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="errno.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

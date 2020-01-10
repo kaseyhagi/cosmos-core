@@ -1,0 +1,25 @@
+var class_device_disk =
+[
+    [ "DeviceDisk", "class_device_disk.html#a99e9be4f6b11a8295c64d7f1807025a6", null ],
+    [ "getAll", "class_device_disk.html#a535fd36581ba0a89a6efcba4b82e8479", null ],
+    [ "getSize", "class_device_disk.html#ad81013c0b62329e2775247ca650ddc39", null ],
+    [ "getUsed", "class_device_disk.html#adb9f6d736b3a2256f85bf772ef4b374c", null ],
+    [ "getFree", "class_device_disk.html#ad697f6257785cdb0fc3afb03b75b6748", null ],
+    [ "getAll", "class_device_disk.html#a45185e3e3d9cd4fc944c5b9326617a55", null ],
+    [ "getSize", "class_device_disk.html#a3c08079df8097a074b7150bf46c5369e", null ],
+    [ "getUsed", "class_device_disk.html#abe896c6dc822f862c2e43be26a035fe6", null ],
+    [ "getFree", "class_device_disk.html#aa793aa672f6ec1254f0de7ebbd31f79e", null ],
+    [ "getFreeGiB", "class_device_disk.html#a97aa3b83f9a56191be0df158be7d1a8d", null ],
+    [ "getUsedGiB", "class_device_disk.html#a271b9501a53e3cd2aacb587b09b8d6a9", null ],
+    [ "getSizeGiB", "class_device_disk.html#a5911147cf97e16fb3addc8e1312dfbc2", null ],
+    [ "getFreeGiB", "class_device_disk.html#a3964ab57957aefb7fd16c8ab01a0e226", null ],
+    [ "getUsedGiB", "class_device_disk.html#ad488c153ba68f2efb4d844f893986e17", null ],
+    [ "getSizeGiB", "class_device_disk.html#ade863c9b1b162c06e670d266d9572c22", null ],
+    [ "Size", "class_device_disk.html#a3ee5986a722c07d385ee13b6a0842ece", null ],
+    [ "Used", "class_device_disk.html#aa96132b607a37eb4c485ceb28183d374", null ],
+    [ "Free", "class_device_disk.html#ae2d90297708d4894a52164ed6bc82297", null ],
+    [ "SizeGiB", "class_device_disk.html#a90a9e3c9f7a36aa675a02a8d308727be", null ],
+    [ "UsedGiB", "class_device_disk.html#aa9514de8c0ad58f974215f0abb6054cf", null ],
+    [ "FreeGiB", "class_device_disk.html#ae316bdedd570354d24ab47cf9e6a0183", null ],
+    [ "FreePercent", "class_device_disk.html#a0d1f59542bde3b9fab0435bca343ce45", null ]
+];

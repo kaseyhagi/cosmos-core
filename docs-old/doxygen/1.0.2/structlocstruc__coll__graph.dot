@@ -1,0 +1,40 @@
+digraph "locstruc"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{locstruc\n|+ utc\l+ orbit\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +pos" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{posstruc\n|+ utc\l+ earthsep\l+ moonsep\l+ sunsize\l+ sunradiance\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structposstruc.html"];
+  Node3 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +selg\n+geod" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{geoidpos\n|+ utc\l+ pass\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structgeoidpos.html",tooltip="Geodetic position structure. "];
+  Node4 -> Node3 [color="grey25",fontsize="10",style="solid",label=" +a\n+s\n+v" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{gvector\n|+ lat\l+ lon\l+ h\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structgvector.html",tooltip="3 element geodetic vector "];
+  Node5 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +geos" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{spherpos\n|+ utc\l+ pass\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structspherpos.html",tooltip="Spherical position structure. "];
+  Node6 -> Node5 [color="grey25",fontsize="10",style="solid",label=" +a\n+s\n+v" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{svector\n|+ phi\l+ lambda\l+ r\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structsvector.html",tooltip="3 element spherical vector "];
+  Node7 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +selc\n+icrf\n+sci\n+geoc\n+eci" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{cartpos\n|+ utc\l+ pass\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structcartpos.html",tooltip="Cartesian full position structure. "];
+  Node8 -> Node7 [color="grey25",fontsize="10",style="solid",label=" +a\n+s\n+v" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 [label="{rvector\n|+ col\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structrvector.html",tooltip="3 element generic row vector "];
+  Node9 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +extra" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node9 [label="{extrapos\n|+ utc\l+ tt\l+ ut\l+ tdb\l+ j2e\l+ dj2e\l+ ddj2e\l+ de2j\l+ closest\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structextrapos.html",tooltip="Additional parameters relating to position that need only be calculated once. "];
+  Node7 -> Node9 [color="grey25",fontsize="10",style="solid",label=" +sun2moon\n+sun2earth" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node10 -> Node9 [color="grey25",fontsize="10",style="solid",label=" +t2s\n+s2t\n+dt2s\n+ds2t\n+s2j\n+j2s\n+t2j\n+j2t\n+dde2j\n+e2j\n..." ,arrowhead="odiamond",fontname="Helvetica"];
+  Node10 [label="{rmatrix\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structrmatrix.html",tooltip="3x3 element generic matrix "];
+  Node8 -> Node10 [color="grey25",fontsize="10",style="solid",label=" +row" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +bearth" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node11 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +att" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node11 [label="{attstruc\n|+ utc\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structattstruc.html"];
+  Node12 -> Node11 [color="grey25",fontsize="10",style="solid",label=" +selc\n+topo\n+icrf\n+geoc\n+lvlh" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node12 [label="{qatt\n|+ utc\l+ pass\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structqatt.html",tooltip="Quaternion Attitude. "];
+  Node13 -> Node12 [color="grey25",fontsize="10",style="solid",label=" +s" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node13 [label="{quaternion\n|+ w\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structquaternion.html",tooltip="Quaternion, scalar last, using x, y, z. "];
+  Node14 -> Node13 [color="grey25",fontsize="10",style="solid",label=" +d" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node14 [label="{cvector\n|+ x\l+ y\l+ z\l|+ normalize()\l+ length()\l+ norm()\l+ norm2()\l+ normalized()\l+ operator[]()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcvector.html",tooltip="3 element cartesian vector "];
+  Node8 -> Node12 [color="grey25",fontsize="10",style="solid",label=" +a\n+v" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node15 -> Node11 [color="grey25",fontsize="10",style="solid",label=" +extra" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node15 [label="{extraatt\n|+ utc\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structextraatt.html",tooltip="Additional parameters relating to position that need only be calculated once. "];
+  Node10 -> Node15 [color="grey25",fontsize="10",style="solid",label=" +b2j\n+j2b" ,arrowhead="odiamond",fontname="Helvetica"];
+}

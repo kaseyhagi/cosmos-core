@@ -1,0 +1,7 @@
+digraph "prkx2su_state"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{prkx2su_state\n|+ azid\l+ azstatus\l+ az_center\l+ az_mode\l+ az_offset_waiting\l+ az_offset\l+ currentaz\l+ targetaz\l+ elid\l+ elstatus\land 7 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

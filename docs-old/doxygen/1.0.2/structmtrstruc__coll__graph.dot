@@ -1,0 +1,13 @@
+digraph "mtrstruc"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{mtrstruc\n|+ npoly\l+ ppoly\l+ mxmom\l+ tc\l+ rmom\l+ mom\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{allstruc\n|+ enabled\l+ type\l+ model\l+ flag\l+ addr\l+ cidx\l+ didx\l+ pidx\l+ bidx\l+ portidx\land 8 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structallstruc.html",tooltip="All Component structure. "];
+  Node4 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +align" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{quaternion\n|+ w\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structquaternion.html",tooltip="Quaternion, scalar last, using x, y, z. "];
+  Node5 -> Node4 [color="grey25",fontsize="10",style="solid",label=" +d" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{cvector\n|+ x\l+ y\l+ z\l|+ normalize()\l+ length()\l+ norm()\l+ norm2()\l+ normalized()\l+ operator[]()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcvector.html",tooltip="3 element cartesian vector "];
+}

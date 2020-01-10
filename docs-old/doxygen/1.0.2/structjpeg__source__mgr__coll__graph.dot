@@ -1,0 +1,7 @@
+digraph "jpeg_source_mgr"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{jpeg_source_mgr\n|+ next_input_byte\l+ bytes_in_buffer\l+ init_source\l+ fill_input_buffer\l+ skip_input_data\l+ resync_to_restart\l+ term_source\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

@@ -1,0 +1,7 @@
+digraph "ElapsedTime"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{ElapsedTime\n|+ print\l+ elapsedTime\l- timeStart\l- timeStop\l- timeNow\l- timeCheck\l|+ ElapsedTime()\l+ printElapsedTime()\l+ printElapsedTime()\l+ getElapsedTimeMiliSeconds()\l+ getElapsedTime()\l+ getElapsedTimeSince()\l+ getElapsedTime()\l+ lap()\l+ split()\l+ check()\land 7 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

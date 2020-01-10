@@ -1,0 +1,9 @@
+digraph "tx_progress"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{tx_progress\n|+ tx_id\l+ havemeta\l+ complete\l+ savetime\l+ file_size\l+ total_bytes\l+ file_info\l+ fp\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +node_name\n+file_name\n+temppath\n+agent_name\n+filepath" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{string\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

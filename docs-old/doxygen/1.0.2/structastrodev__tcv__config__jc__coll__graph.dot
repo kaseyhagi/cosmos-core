@@ -1,0 +1,11 @@
+digraph "astrodev_tcv_config_jc"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{astrodev_tcv_config_jc\n|+ interface_baud_rate\l+ power_amp_level\l+ rx_baud_rate\l+ tx_baud_rate\l+ rx_modulation\l+ tx_modulation\l+ rx_freq_low\l+ rx_freq_high\l+ tx_freq_low\l+ tx_freq_high\land 9 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +function_config2" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{astrodev_function_config2\n|+ rx_afc_enable\l+ test_mode_rx_cw\l+ test_mode_tx_cw\l+ test_mode_tbd\l+ zeros\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structastrodev__function__config2.html"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +function_config" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{astrodev_function_config1\n|+ ext_event_pin12_functions\l+ config2_pin13_functions\l+ config1_pin14_dio_enable\l+ config1_pin14_dio_pattern\l+ rx_crc_enable\l+ tx_crc_enable\l+ tlm_packet_logging\l_enable\l+ tlm_packet_logging_rate\l+ tlm_dump_enable\l+ oa_commands_enable\l+ code_upload_enable\l+ radio_reset_enable\l+ factory_defaults_restored\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structastrodev__function__config1.html",tooltip="ASTRODEV state. "];
+}

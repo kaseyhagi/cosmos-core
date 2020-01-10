@@ -1,0 +1,7 @@
+digraph "gs232b_state"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{gs232b_state\n|+ az_center\l+ az_mode\l+ az_offset_waiting\l+ az_offset\l+ currentaz\l+ targetaz\l+ el_offset_waiting\l+ el_offset\l+ currentel\l+ targetel\l+ sensitivity\l+ in_command\l+ data_received\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

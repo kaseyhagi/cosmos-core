@@ -1,0 +1,7 @@
+digraph "gige_data_leader_packet"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{gige_data_leader_packet\n|+ status\l+ block_id\l+ format\l+ packet_id\l+ @13\l+ block_id64\l+ packet_id32\l+ payload_specific\l+ payload_type\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

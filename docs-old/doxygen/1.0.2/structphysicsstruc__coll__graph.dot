@@ -1,0 +1,9 @@
+digraph "physicsstruc"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{physicsstruc\n|+ dt\l+ dtj\l+ mjdbase\l+ mjdaccel\l+ mjddiff\l+ mode\l+ heat\l+ hmomentum\l+ fdrag\l+ moi\l+ hcap\l+ mass\l+ area\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +atorque\n+ctorque\n+rtorque\n+com\n+thrust\n+ftorque\n+rdrag\n+adrag\n+gtorque\n+htorque\n..." ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{Cosmos::Math::Vector\n|+ x\l+ y\l+ z\l+ w\l|+ Vector()\l+ Vector()\l+ Vector()\l+ at()\l+ from_cv()\l+ from_rv()\l+ from_q()\l+ to_rv()\l+ to_cv()\l+ to_q()\land 23 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_cosmos_1_1_math_1_1_vector.html",tooltip="Vector Class. "];
+}

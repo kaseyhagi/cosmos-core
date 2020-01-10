@@ -1,0 +1,7 @@
+digraph "png_text_struct"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{png_text_struct\n|+ compression\l+ key\l+ text\l+ text_length\l+ itxt_length\l+ lang\l+ lang_key\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

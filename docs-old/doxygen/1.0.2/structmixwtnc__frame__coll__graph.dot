@@ -1,0 +1,7 @@
+digraph "mixwtnc_frame"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{mixwtnc_frame\n|+ flag\l+ destination_address\l+ source_address\l+ control\l+ protocol_id\l+ header\l+ preamble\l+ payload\l+ part\l+ full\l+ @29\l+ size\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

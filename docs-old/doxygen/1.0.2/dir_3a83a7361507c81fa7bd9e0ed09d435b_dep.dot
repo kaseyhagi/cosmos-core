@@ -1,0 +1,17 @@
+digraph "sensors" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_03af1c557e7e0223a3e8cc85239ff557 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="old" fontname="Helvetica", fontsize="10", URL="dir_03af1c557e7e0223a3e8cc85239ff557.html"]
+  subgraph clusterdir_3a83a7361507c81fa7bd9e0ed09d435b {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_3a83a7361507c81fa7bd9e0ed09d435b.html"];
+    dir_3a83a7361507c81fa7bd9e0ed09d435b [shape=plaintext label="sensors"];
+    dir_41d020430541058d6a14a6615740d0b7 [shape=box label="imu_microstrain" color="black" fillcolor="white" style="filled" URL="dir_41d020430541058d6a14a6615740d0b7.html"];
+    dir_d460620ed73d15be3d2eee557bd67023 [shape=box label="imu_razor" color="black" fillcolor="white" style="filled" URL="dir_d460620ed73d15be3d2eee557bd67023.html"];
+  }
+  }
+  dir_bc0718b08fb2015b8e59c47b2805f60c [shape=box label="libraries" fillcolor="white" style="filled" color="red" URL="dir_bc0718b08fb2015b8e59c47b2805f60c.html"];
+  dir_d460620ed73d15be3d2eee557bd67023->dir_bc0718b08fb2015b8e59c47b2805f60c [headlabel="1", labeldistance=1.5 headhref="dir_000047_000000.html"];
+  dir_41d020430541058d6a14a6615740d0b7->dir_bc0718b08fb2015b8e59c47b2805f60c [headlabel="6", labeldistance=1.5 headhref="dir_000032_000000.html"];
+}

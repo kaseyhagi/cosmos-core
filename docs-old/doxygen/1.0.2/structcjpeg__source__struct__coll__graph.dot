@@ -1,0 +1,7 @@
+digraph "cjpeg_source_struct"
+{
+ // INTERACTIVE_SVG=YES
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{cjpeg_source_struct\n|+ start_input\l+ get_pixel_rows\l+ finish_input\l+ input_file\l+ buffer\l+ buffer_height\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}
