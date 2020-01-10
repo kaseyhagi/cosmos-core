@@ -1,7 +1,0 @@
-digraph "savable_state"
-{
- // INTERACTIVE_SVG=YES
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="{savable_state\n|+ put_buffer\l+ put_bits\l+ last_dc_val\l+ EOBRUN\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

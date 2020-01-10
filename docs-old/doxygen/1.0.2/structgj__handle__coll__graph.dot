@@ -1,7 +1,0 @@
-digraph "gj_handle"
-{
- // INTERACTIVE_SVG=YES
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="{gj_handle\n|+ binom\l+ c\l+ gam\l+ beta\l+ q\l+ lam\l+ alpha\l+ dt\l+ dtsq\l+ order\l+ order2\l+ step\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

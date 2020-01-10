@@ -1,7 +1,0 @@
-digraph "Cosmos::CommandQueue"
-{
- // INTERACTIVE_SVG=YES
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="{Cosmos::CommandQueue\n|- commands\l- queue_changed\l|+ get_size()\l+ get_command()\l+ load_commands()\l+ save_commands()\l+ run_command()\l+ run_commands()\l+ add_command()\l+ del_command()\l+ sort()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

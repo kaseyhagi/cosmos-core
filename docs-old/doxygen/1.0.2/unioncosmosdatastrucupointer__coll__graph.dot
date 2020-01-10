@@ -1,7 +1,0 @@
-digraph "cosmosdatastrucupointer"
-{
- // INTERACTIVE_SVG=YES
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="{cosmosdatastrucupointer\n|+ Void\l+ Bool\l+ Char\l+ String\l+ Uint8\l+ Uint16\l+ Uint32\l+ Int16\l+ Int32\l+ Float\land 33 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

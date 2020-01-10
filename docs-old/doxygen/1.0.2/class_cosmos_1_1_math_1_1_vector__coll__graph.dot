@@ -1,7 +1,0 @@
-digraph "Cosmos::Math::Vector"
-{
- // INTERACTIVE_SVG=YES
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  Node2 [label="{Cosmos::Math::Vector\n|+ x\l+ y\l+ z\l+ w\l|+ Vector()\l+ Vector()\l+ Vector()\l+ at()\l+ from_cv()\l+ from_rv()\l+ from_q()\l+ to_rv()\l+ to_cv()\l+ to_q()\land 23 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

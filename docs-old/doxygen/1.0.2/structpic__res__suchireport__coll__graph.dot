@@ -1,7 +1,0 @@
-digraph "pic_res_suchireport"
-{
- // INTERACTIVE_SVG=YES
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="{pic_res_suchireport\n|+ suchi_state\l+ sw_wdt_heaters\l+ sw_wdt_shutters\l+ reserved\l+ temperatures\l+ pressure\l+ uptime\l+ uart_frames_rx\l+ uart_bytes_discard\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

@@ -1,9 +1,0 @@
-digraph "A35 library function declarations"
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  rankdir=LR;
-  Node1 [label="A35 camera support",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__acq__a35.html"];
-  Node0 [label="A35 library function\l declarations",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-  Node1->Node0 [shape=plaintext, dir="back", style="solid"];
-}

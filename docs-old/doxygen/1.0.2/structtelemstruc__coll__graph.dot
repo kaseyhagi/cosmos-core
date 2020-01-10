@@ -1,9 +1,0 @@
-digraph "telemstruc"
-{
- // INTERACTIVE_SVG=YES
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  Node2 [label="{telemstruc\n|+ type\l+ vuint8\l+ vint8\l+ vuint16\l+ vint16\l+ vuint32\l+ vint32\l+ vfloat\l+ vdouble\l+ vstring\l+ @52\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
-  Node3 [label="{allstruc\n|+ enabled\l+ type\l+ model\l+ flag\l+ addr\l+ cidx\l+ didx\l+ pidx\l+ bidx\l+ portidx\land 8 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structallstruc.html",tooltip="All Component structure. "];
-}

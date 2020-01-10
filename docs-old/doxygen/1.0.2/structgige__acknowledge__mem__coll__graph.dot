@@ -1,7 +1,0 @@
-digraph "gige_acknowledge_mem"
-{
- // INTERACTIVE_SVG=YES
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="{gige_acknowledge_mem\n|+ status\l+ acknowledge\l+ length\l+ ack_id\l+ address\l+ data\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

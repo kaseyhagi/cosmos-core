@@ -1,7 +1,0 @@
-digraph "box"
-{
- // INTERACTIVE_SVG=YES
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="{box\n|+ c0min\l+ c0max\l+ c1min\l+ c1max\l+ c2min\l+ c2max\l+ volume\l+ colorcount\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

@@ -1,7 +1,0 @@
-digraph "astrodev_function_config2"
-{
- // INTERACTIVE_SVG=YES
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="{astrodev_function_config2\n|+ rx_afc_enable\l+ test_mode_rx_cw\l+ test_mode_tx_cw\l+ test_mode_tbd\l+ zeros\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

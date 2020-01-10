@@ -1,7 +1,0 @@
-digraph "jpeg_error_mgr"
-{
- // INTERACTIVE_SVG=YES
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="{jpeg_error_mgr\n|+ error_exit\l+ emit_message\l+ output_message\l+ format_message\l+ reset_error_mgr\l+ msg_code\l+ i\l+ s\l+ msg_parm\l+ trace_level\land 6 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

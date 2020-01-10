@@ -1,7 +1,0 @@
-digraph "DeviceDisk"
-{
- // INTERACTIVE_SVG=YES
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="{DeviceDisk\n|+ Size\l+ Used\l+ Free\l+ SizeGiB\l+ UsedGiB\l+ FreeGiB\l+ FreePercent\l|+ DeviceDisk()\l+ getAll()\l+ getSize()\l+ getUsed()\l+ getFree()\l+ getAll()\l+ getSize()\l+ getUsed()\l+ getFree()\l+ getFreeGiB()\l+ getUsedGiB()\l+ getSizeGiB()\l+ getFreeGiB()\l+ getUsedGiB()\l+ getSizeGiB()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

@@ -1,7 +1,0 @@
-digraph "astrodev_function_config1"
-{
- // INTERACTIVE_SVG=YES
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="{astrodev_function_config1\n|+ ext_event_pin12_functions\l+ config2_pin13_functions\l+ config1_pin14_dio_enable\l+ config1_pin14_dio_pattern\l+ rx_crc_enable\l+ tx_crc_enable\l+ tlm_packet_logging\l_enable\l+ tlm_packet_logging_rate\l+ tlm_dump_enable\l+ oa_commands_enable\l+ code_upload_enable\l+ radio_reset_enable\l+ factory_defaults_restored\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

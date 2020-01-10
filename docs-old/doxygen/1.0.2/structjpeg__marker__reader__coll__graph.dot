@@ -1,7 +1,0 @@
-digraph "jpeg_marker_reader"
-{
- // INTERACTIVE_SVG=YES
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="{jpeg_marker_reader\n|+ read_restart_marker\l+ saw_SOI\l+ saw_SOF\l+ next_restart_num\l+ discarded_bytes\l|+ JMETHOD()\l+ JMETHOD()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

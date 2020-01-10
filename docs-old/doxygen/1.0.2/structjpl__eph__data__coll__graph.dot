@@ -1,7 +1,0 @@
-digraph "jpl_eph_data"
-{
- // INTERACTIVE_SVG=YES
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="{jpl_eph_data\n|+ ephem_start\l+ ephem_end\l+ ephem_step\l+ ncon\l+ au\l+ emrat\l+ ipt\l+ ephemeris_version\l+ kernel_size\l+ recsize\land 7 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}
