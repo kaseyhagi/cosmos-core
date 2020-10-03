@@ -10,7 +10,7 @@ addons:
       - doxygen
 
 script:
-  - doxygen Doxyfile
+  - doxygen docs/doxygen/Doxyfile
 
 deploy:
   provider: pages
