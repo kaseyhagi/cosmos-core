@@ -1,0 +1,65 @@
+var group__physicslib__typedefs =
+[
+    [ "gjstruc", "structgjstruc.html", [
+      [ "sloc", "structgjstruc.html#a240eb117793862050882b47d92b8b41b", null ],
+      [ "a", "structgjstruc.html#a649e12db88c5347b885dbe763d3a97ce", null ],
+      [ "b", "structgjstruc.html#ad9f0695d92fe978f8f461149107689c7", null ],
+      [ "s", "structgjstruc.html#a356beff902433a9fbbe928caa691e87c", null ],
+      [ "ss", "structgjstruc.html#ab2b5e17887a68240a433b8de2a64984a", null ],
+      [ "sa", "structgjstruc.html#aa4b0418d63207c39865b56cfafa605c6", null ],
+      [ "sb", "structgjstruc.html#a1a9d2967b3007f2dcfd507a7da1c374f", null ],
+      [ "tau", "structgjstruc.html#afc9667967d71b328d54820415070d398", null ]
+    ] ],
+    [ "gj_handle", "structgj__handle.html", [
+      [ "binom", "structgj__handle.html#a2c396692d23acfbe592d99245d0130bf", null ],
+      [ "c", "structgj__handle.html#a3535e99a3323d7925c4bdaef7a330f11", null ],
+      [ "gam", "structgj__handle.html#aec279bc9f269750b73e88662323a3023", null ],
+      [ "beta", "structgj__handle.html#aa4b6d601bbd7822f070449d8bbf5f791", null ],
+      [ "q", "structgj__handle.html#ab647e87cf4004dff8d15f1dcf3baed95", null ],
+      [ "lam", "structgj__handle.html#ab10da2fdeaa7e8616c5fadca72a51fb3", null ],
+      [ "alpha", "structgj__handle.html#a11021ee6de06e1cf7016feed18da1c46", null ],
+      [ "dt", "structgj__handle.html#a2f488fdbc7994a7fc495a4b751cba1ff", null ],
+      [ "dtsq", "structgj__handle.html#a7fd87f83546183ecfa0c85018a259aa1", null ],
+      [ "order", "structgj__handle.html#acbc5bd29496ca4d3b055cac4de98f8ae", null ],
+      [ "order2", "structgj__handle.html#a62b8504d75c54a2c7b29bfb5d8c5d17e", null ],
+      [ "step", "structgj__handle.html#ae9962ed18b4c84e077e08e1fdf081795", null ]
+    ] ],
+    [ "trianglestruc", "structtrianglestruc.html", [
+      [ "com", "structtrianglestruc.html#acebf6241220302ba49583894a5d87642", null ],
+      [ "normal", "structtrianglestruc.html#af3c2865c4eb1c4f45002e8271e733a21", null ],
+      [ "area", "structtrianglestruc.html#ae249950ee42fc1a4b37569e673b87748", null ],
+      [ "pidx", "structtrianglestruc.html#a9b43561927a63fccf87fb1829ef046ce", null ],
+      [ "tidx", "structtrianglestruc.html#a4151f1424370a7fe033d29b063df4dc3", null ],
+      [ "heat", "structtrianglestruc.html#a3d70751cdda1c2e30726a05204dbceec", null ],
+      [ "temp", "structtrianglestruc.html#a7ebb065e4dff81a9e4c75e07e31aaba7", null ],
+      [ "irradiance", "structtrianglestruc.html#abef5597b2428adeb7fc63a750037e7b6", null ],
+      [ "triangleindex", "structtrianglestruc.html#a68ed9dda2e8b425e109cc662c1b19790", null ]
+    ] ],
+    [ "physicsstruc", "structphysicsstruc.html", [
+      [ "dt", "structphysicsstruc.html#ad34bd2ae633ea1bdbf01e2f38bf35a36", null ],
+      [ "dtj", "structphysicsstruc.html#a52ff2d9795a3a78753a6bbe1e0bb5b6e", null ],
+      [ "mjdbase", "structphysicsstruc.html#a7c26927025bc587595b9f328042ff8fa", null ],
+      [ "mjdaccel", "structphysicsstruc.html#a3a701106e19f2c37b60f1209fc786b01", null ],
+      [ "mjddiff", "structphysicsstruc.html#ad1bc7c488189229a49a2a402eea170f2", null ],
+      [ "mode", "structphysicsstruc.html#ac7ce668e6c24f9cc73b884da33a758ce", null ],
+      [ "heat", "structphysicsstruc.html#adb74fc438f8df74993f2e713d09a4f98", null ],
+      [ "ftorque", "structphysicsstruc.html#a729474b703b213c723c98937382c673c", null ],
+      [ "atorque", "structphysicsstruc.html#add87b4c17b7d13aba0cc863b10649412", null ],
+      [ "rtorque", "structphysicsstruc.html#acb39d11a05f11e6abe0d4698d8c486ce", null ],
+      [ "gtorque", "structphysicsstruc.html#a973d7db7f370560e20d4caded2e6b5a7", null ],
+      [ "htorque", "structphysicsstruc.html#a3b9b186f119cdf497016fb1740ca9b2a", null ],
+      [ "hmomentum", "structphysicsstruc.html#ac80d8a50b7bdb77ff2ca8338ce10e9f6", null ],
+      [ "ctorque", "structphysicsstruc.html#a456cb90c106b568e095506546ca8661c", null ],
+      [ "fdrag", "structphysicsstruc.html#a10abedb559b220cf505f535298534934", null ],
+      [ "adrag", "structphysicsstruc.html#a789b490c787fd0e03e55f824ca49b3e6", null ],
+      [ "rdrag", "structphysicsstruc.html#ae7eecf12ac3fd14b64c970481128d2ff", null ],
+      [ "thrust", "structphysicsstruc.html#aa41fdb408a64cc53683853bfa8629d32", null ],
+      [ "moi", "structphysicsstruc.html#a879ca2f455b3144801f20c70c9d37aee", null ],
+      [ "com", "structphysicsstruc.html#af2d5798182ebeb7abb7b60f44110a2ea", null ],
+      [ "hcap", "structphysicsstruc.html#a99e6baefefa16247440ee1f2ebd79c0b", null ],
+      [ "mass", "structphysicsstruc.html#a8376eee907f57d5770d848e74b7db5d0", null ],
+      [ "area", "structphysicsstruc.html#a81f38c2a88534ff086eb47e70b707719", null ],
+      [ "vertices", "structphysicsstruc.html#ad4f65d33678acd3531ce808e95c8588d", null ],
+      [ "triangles", "structphysicsstruc.html#a68048641af7404a2ca3927b81e801f68", null ]
+    ] ]
+];

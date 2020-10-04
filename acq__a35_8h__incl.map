@@ -1,0 +1,20 @@
+<map id="acq_a35.h" name="acq_a35.h">
+<area shape="rect" id="node2" href="$agentclass_8h.html" title="Agent Server and Client header file. " alt="" coords="826,80,958,107"/>
+<area shape="rect" id="node50" href="$gige__lib_8h.html" title="device/general/gige\l_lib.h" alt="" coords="38,229,173,271"/>
+<area shape="rect" id="node3" href="$config_cosmos_8h.html" title="Headers and definitions common to all COSMOS. " alt="" coords="873,543,1037,569"/>
+<area shape="rect" id="node28" href="$cosmos-errno_8h.html" title="COSMOS Error Codes. " alt="" coords="1319,468,1478,495"/>
+<area shape="rect" id="node30" href="$stringlib_8h.html" title="stringlib include file A library providing functions for handling various types of string..." alt="" coords="644,468,769,495"/>
+<area shape="rect" id="node32" href="$timelib_8h.html" title="timelib include file A library providing functions for handling various types of time. " alt="" coords="1735,319,1854,345"/>
+<area shape="rect" id="node33" href="$elapsedtime_8h.html" title="Elapsed Time header file. " alt="" coords="1655,393,1806,420"/>
+<area shape="rect" id="node39" href="$jsondef_8h.html" title="support/jsondef.h" alt="" coords="931,237,1053,263"/>
+<area shape="rect" id="node42" href="$socketlib_8h.html" title="Socket Support header file. " alt="" coords="403,319,535,345"/>
+<area shape="rect" id="node47" href="$sliplib_8h.html" title="COSMOS SLIP support include file. " alt="" coords="1187,393,1301,420"/>
+<area shape="rect" id="node48" href="$jsonlib_8h.html" title="JSON Support definitions. " alt="" coords="833,155,951,181"/>
+<area shape="rect" id="node49" href="$devicecpu_8h.html" title="devicecpu include file. " alt="" coords="594,393,753,420"/>
+<area shape="rect" id="node27" href="$cosmos-defs_8h.html" title="COSMOS definitions Definitions specific to the COSMOS environement. " alt="" coords="593,617,748,644"/>
+<area shape="rect" id="node31" href="$jsonobject_8h.html" title="support/jsonobject.h" alt="" coords="637,543,776,569"/>
+<area shape="rect" id="node35" href="$mathlib_8h.html" title="mathlib include file " alt="" coords="1325,393,1433,420"/>
+<area shape="rect" id="node40" href="$convertdef_8h.html" title="support/convertdef.h" alt="" coords="1031,319,1172,345"/>
+<area shape="rect" id="node41" href="$physicsdef_8h.html" title="Orbit library support definitions. " alt="" coords="845,468,990,495"/>
+<area shape="rect" id="node46" href="$objlib_8h.html" title="support/objlib.h" alt="" coords="1197,319,1307,345"/>
+</map>

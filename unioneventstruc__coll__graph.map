@@ -1,0 +1,5 @@
+<map id="eventstruc" name="eventstruc">
+<area shape="rect" id="node2" href="$structshorteventstruc.html" title="Shortened COSMOS Event structure. " alt="" coords="5,160,117,384"/>
+<area shape="rect" id="node3" href="$structjsonhandle.html" title="JSON handle. " alt="" coords="91,5,175,97"/>
+<area shape="rect" id="node4" href="$structlongeventstruc.html" title="Long COSMOS Event structure. " alt="" coords="141,160,248,384"/>
+</map>

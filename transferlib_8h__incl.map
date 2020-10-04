@@ -1,0 +1,20 @@
+<map id="transferlib.h" name="transferlib.h">
+<area shape="rect" id="node2" href="$config_cosmos_8h.html" title="Headers and definitions common to all COSMOS. " alt="" coords="823,528,987,555"/>
+<area shape="rect" id="node28" href="$datalib_8h.html" title="Data Management header file. " alt="" coords="909,80,1027,107"/>
+<area shape="rect" id="node26" href="$cosmos-defs_8h.html" title="COSMOS definitions Definitions specific to the COSMOS environement. " alt="" coords="416,603,571,629"/>
+<area shape="rect" id="node29" href="$cosmos-errno_8h.html" title="COSMOS Error Codes. " alt="" coords="1295,453,1454,480"/>
+<area shape="rect" id="node31" href="$datadef_8h.html" title="Data Management definitions file. " alt="" coords="569,229,692,256"/>
+<area shape="rect" id="node32" href="$jsondef_8h.html" title="support/jsondef.h" alt="" coords="868,229,991,256"/>
+<area shape="rect" id="node38" href="$jsonlib_8h.html" title="JSON Support definitions. " alt="" coords="775,155,892,181"/>
+<area shape="rect" id="node41" href="$zlib_8h.html" title="thirdparty/zlib/zlib.h" alt="" coords="1597,155,1731,181"/>
+<area shape="rect" id="node43" href="$timelib_8h.html" title="timelib include file A library providing functions for handling various types of time. " alt="" coords="1534,304,1653,331"/>
+<area shape="rect" id="node50" href="$dirent_8h.html" title="dirent.h" alt="" coords="1162,155,1227,181"/>
+<area shape="rect" id="node33" href="$mathlib_8h.html" title="mathlib include file " alt="" coords="1229,379,1337,405"/>
+<area shape="rect" id="node34" href="$convertdef_8h.html" title="support/convertdef.h" alt="" coords="884,304,1025,331"/>
+<area shape="rect" id="node35" href="$physicsdef_8h.html" title="Orbit library support definitions. " alt="" coords="722,379,867,405"/>
+<area shape="rect" id="node36" href="$socketlib_8h.html" title="Socket Support header file. " alt="" coords="786,453,918,480"/>
+<area shape="rect" id="node37" href="$objlib_8h.html" title="support/objlib.h" alt="" coords="1050,304,1161,331"/>
+<area shape="rect" id="node39" href="$stringlib_8h.html" title="stringlib include file A library providing functions for handling various types of string..." alt="" coords="1044,453,1169,480"/>
+<area shape="rect" id="node42" href="$zconf_8h.html" title="zconf.h" alt="" coords="1782,304,1847,331"/>
+<area shape="rect" id="node44" href="$elapsedtime_8h.html" title="Elapsed Time header file. " alt="" coords="1581,453,1731,480"/>
+</map>

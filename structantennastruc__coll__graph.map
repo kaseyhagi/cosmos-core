@@ -1,0 +1,7 @@
+<map id="antennastruc" name="antennastruc">
+<area shape="rect" id="node2" href="$structantstruc.html" title="Antenna information. " alt="" coords="29,579,123,744"/>
+<area shape="rect" id="node3" href="$structallstruc.html" title="All Component structure. " alt="" coords="5,248,104,472"/>
+<area shape="rect" id="node4" href="$structquaternion.html" title="Quaternion, scalar last, using x, y, z. " alt="" coords="128,321,211,399"/>
+<area shape="rect" id="node5" href="$classcvector.html" title="3 element cartesian vector " alt="" coords="117,5,222,185"/>
+<area shape="rect" id="node7" href="$structbeatstruc.html" title="{beatstruc\n|+ utc\l+ node\l+ proc\l+ ntype\l+ addr\l+ port\l+ bsz\l+ bprd\l+ user\l+ cpu\l+ memory\l+ jitter\l+ exists\l|}" alt="" coords="226,535,307,788"/>
+</map>

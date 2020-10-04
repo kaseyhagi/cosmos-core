@@ -1,0 +1,5 @@
+<map id="quatatt" name="quatatt">
+<area shape="rect" id="node2" href="$structquaternion.html" title="Quaternion, scalar last, using x, y, z. " alt="" coords="17,248,99,325"/>
+<area shape="rect" id="node3" href="$classcvector.html" title="3 element cartesian vector " alt="" coords="5,5,111,185"/>
+<area shape="rect" id="node4" href="$structrvector.html" title="3 element generic row vector " alt="" coords="124,248,187,325"/>
+</map>

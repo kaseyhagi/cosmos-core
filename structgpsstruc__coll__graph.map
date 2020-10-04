@@ -1,0 +1,5 @@
+<map id="gpsstruc" name="gpsstruc">
+<area shape="rect" id="node2" href="$structallstruc.html" title="All Component structure. " alt="" coords="5,5,104,229"/>
+<area shape="rect" id="node3" href="$structrvector.html" title="3 element generic row vector " alt="" coords="129,79,191,156"/>
+<area shape="rect" id="node4" href="$structgvector.html" title="3 element geodetic vector " alt="" coords="215,64,281,171"/>
+</map>

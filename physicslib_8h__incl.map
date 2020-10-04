@@ -1,0 +1,18 @@
+<map id="physicslib.h" name="physicslib.h">
+<area shape="rect" id="node2" href="$config_cosmos_8h.html" title="Headers and definitions common to all COSMOS. " alt="" coords="899,603,1063,629"/>
+<area shape="rect" id="node26" href="$cosmos-defs_8h.html" title="COSMOS definitions Definitions specific to the COSMOS environement. " alt="" coords="1699,677,1853,704"/>
+<area shape="rect" id="node28" href="$mathlib_8h.html" title="mathlib include file " alt="" coords="514,229,622,256"/>
+<area shape="rect" id="node36" href="$nrlmsise-00_8h.html" title="NRLMSISE&#45;00 Extended Support header file. " alt="" coords="1652,80,1799,107"/>
+<area shape="rect" id="node37" href="$convertlib_8h.html" title="convertlib include file A library providing functions for conversion between the various position and..." alt="" coords="1143,80,1279,107"/>
+<area shape="rect" id="node39" href="$demlib_8h.html" title="DEM Support header file. " alt="" coords="771,453,890,480"/>
+<area shape="rect" id="node40" href="$physicsdef_8h.html" title="Orbit library support definitions. " alt="" coords="806,304,951,331"/>
+<area shape="rect" id="node41" href="$jsondef_8h.html" title="support/jsondef.h" alt="" coords="924,80,1047,107"/>
+<area shape="rect" id="node29" href="$cosmos-errno_8h.html" title="COSMOS Error Codes. " alt="" coords="975,304,1134,331"/>
+<area shape="rect" id="node31" href="$math_2constants_8h.html" title="constants.h" alt="" coords="296,528,387,555"/>
+<area shape="rect" id="node32" href="$vector_8h.html" title="vector.h" alt="" coords="387,453,456,480"/>
+<area shape="rect" id="node34" href="$matrix_8h.html" title="matrix.h" alt="" coords="459,379,528,405"/>
+<area shape="rect" id="node35" href="$rotation_8h.html" title="rotation.h" alt="" coords="530,304,606,331"/>
+<area shape="rect" id="node38" href="$convertdef_8h.html" title="support/convertdef.h" alt="" coords="1139,155,1280,181"/>
+<area shape="rect" id="node42" href="$socketlib_8h.html" title="Socket Support header file. " alt="" coords="919,155,1051,181"/>
+<area shape="rect" id="node46" href="$objlib_8h.html" title="support/objlib.h" alt="" coords="606,155,717,181"/>
+</map>

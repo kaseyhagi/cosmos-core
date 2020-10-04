@@ -1,0 +1,10 @@
+<map id="posstruc" name="posstruc">
+<area shape="rect" id="node2" href="$structgeoidpos.html" title="Geodetic position structure. " alt="" coords="5,542,80,634"/>
+<area shape="rect" id="node3" href="$structgvector.html" title="3 element geodetic vector " alt="" coords="10,175,75,281"/>
+<area shape="rect" id="node4" href="$structspherpos.html" title="Spherical position structure. " alt="" coords="104,542,179,634"/>
+<area shape="rect" id="node5" href="$structsvector.html" title="3 element spherical vector " alt="" coords="103,175,179,281"/>
+<area shape="rect" id="node6" href="$structcartpos.html" title="Cartesian full position structure. " alt="" coords="238,182,303,274"/>
+<area shape="rect" id="node8" href="$structextrapos.html" title="Additional parameters relating to position that need only be calculated once. " alt="" coords="289,491,365,685"/>
+<area shape="rect" id="node7" href="$structrvector.html" title="3 element generic row vector " alt="" coords="298,5,361,83"/>
+<area shape="rect" id="node9" href="$structrmatrix.html" title="3x3 element generic matrix " alt="" coords="337,189,399,267"/>
+</map>

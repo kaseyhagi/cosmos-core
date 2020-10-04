@@ -1,0 +1,17 @@
+<map id="targetstruc" name="targetstruc">
+<area shape="rect" id="node2" href="$structlocstruc.html" title="{locstruc\n|+ utc\l+ orbit\l|}" alt="" coords="434,1108,502,1200"/>
+<area shape="rect" id="node3" href="$structposstruc.html" title="{posstruc\n|+ utc\l+ earthsep\l+ moonsep\l+ sunsize\l+ sunradiance\l|}" alt="" coords="175,909,279,1045"/>
+<area shape="rect" id="node4" href="$structgeoidpos.html" title="Geodetic position structure. " alt="" coords="5,645,80,737"/>
+<area shape="rect" id="node5" href="$structgvector.html" title="3 element geodetic vector " alt="" coords="10,277,75,384"/>
+<area shape="rect" id="node6" href="$structspherpos.html" title="Spherical position structure. " alt="" coords="104,645,179,737"/>
+<area shape="rect" id="node7" href="$structsvector.html" title="3 element spherical vector " alt="" coords="103,277,179,384"/>
+<area shape="rect" id="node8" href="$structcartpos.html" title="Cartesian full position structure. " alt="" coords="238,285,303,377"/>
+<area shape="rect" id="node10" href="$structextrapos.html" title="Additional parameters relating to position that need only be calculated once. " alt="" coords="289,593,365,788"/>
+<area shape="rect" id="node9" href="$structrvector.html" title="3 element generic row vector " alt="" coords="447,57,510,134"/>
+<area shape="rect" id="node11" href="$structrmatrix.html" title="3x3 element generic matrix " alt="" coords="401,292,463,369"/>
+<area shape="rect" id="node13" href="$structqatt.html" title="Quaternion Attitude. " alt="" coords="481,645,543,737"/>
+<area shape="rect" id="node16" href="$structextraatt.html" title="Additional parameters relating to position that need only be calculated once. " alt="" coords="389,652,456,729"/>
+<area shape="rect" id="node12" href="$structattstruc.html" title="{attstruc\n|+ utc\l|}" alt="" coords="435,939,501,1016"/>
+<area shape="rect" id="node14" href="$structquaternion.html" title="Quaternion, scalar last, using x, y, z. " alt="" coords="629,292,712,369"/>
+<area shape="rect" id="node15" href="$classcvector.html" title="3 element cartesian vector " alt="" coords="618,5,723,185"/>
+</map>
